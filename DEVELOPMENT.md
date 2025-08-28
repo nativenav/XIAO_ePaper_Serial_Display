@@ -1,4 +1,4 @@
-# XIAO ePaper Serial Display - Warp Drive Notebook
+# XIAO ePaper Serial Display - Development Guide
 
 ## 📋 Project Overview
 
@@ -145,7 +145,7 @@ git diff <commit1>..<commit2>
 - `XIAO_ePaper_Serial_Display.ino` - Main Arduino sketch
 - `driver.h` - Hardware configuration  
 - `README.md` - Project documentation
-- `WARP_NOTEBOOK.md` - This complete reference guide
+- `DEVELOPMENT.md` - This complete development guide
 
 ### Key Functions in Sketch
 - `updateDisplayWithAntiGhosting()` - Full refresh with ghosting prevention
@@ -168,11 +168,11 @@ git diff <commit1>..<commit2>
 - [ ] Add image display capability
 - [ ] Create configuration web interface
 
-## 🔄 Warp Drive Usage
+## 🔄 Usage Notes
 
-**Save this notebook to Warp Drive as**: "XIAO ePaper Project Notebook"
+**For Warp Drive**: Save this file as "XIAO ePaper Development Guide"
 
-This single file contains everything needed to work with the project:
+This development guide contains everything needed to work with the project:
 - Commands ready to copy/paste
 - Hardware reference information  
 - Troubleshooting guide
