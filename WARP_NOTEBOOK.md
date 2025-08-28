@@ -124,13 +124,28 @@ git reset --hard <commit-hash>
 git show <commit-hash>
 ```
 
+### Advanced Git (Optional)
+```bash
+# Create feature branch for experiments
+git checkout -b feature/new-idea
+
+# Switch back to main
+git checkout main
+
+# Merge feature branch
+git merge feature/new-idea
+
+# Compare two commits
+git diff <commit1>..<commit2>
+```
+
 ## 📁 Project Files
 
 ### Core Files
 - `XIAO_ePaper_Serial_Display.ino` - Main Arduino sketch
 - `driver.h` - Hardware configuration  
 - `README.md` - Project documentation
-- `DEVELOPMENT.md` - Git workflow guide
+- `WARP_NOTEBOOK.md` - This complete reference guide
 
 ### Key Functions in Sketch
 - `updateDisplayWithAntiGhosting()` - Full refresh with ghosting prevention
